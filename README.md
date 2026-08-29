@@ -3,20 +3,20 @@ In this repository, I am going to put up my project about Demographic Data Analy
 
 What I analyzed: 
 1. Current and historical Demographic structures for some East Asian countries (Japan, China, Republic of Korea)
-note: Historical demographic structures mostly start at 1950s or 1960s, China is an exception. 
+\n Note: Historical demographic structures mostly start at 1950s or 1960s, China is an exception. 
 2. Urban and Rural Populations
-note: There are problems with the data from Japan, later will mentioned in the problem sector.
+\n Note: There are problems with the data from Japan, later will mentioned in the problem sector.
 3. Man VS Women population in Urban and Rural Areas
-Note: I only did it for China, and I did not notice any major discovery.That is way I stop there.
+\n Note: I only did it for China, and I did not notice any major discovery.That is way I stop there.
 4. China's pension system challenge:
-Intro: China still use a binary pension system. They separate the rural and urban areas. They give people different amount of money based on their "Hukou"(Which is a system separates people that registered as rural resident from the people registered as urban residents.) Note: this impact their abilities to get social benefits such as education and pension. Usually people registered as rural residence are getting significantly less money from the pension system then people registered as urban residents.
-  1. Retiree Vs Working population: this ratio is getting larger in both Urban and Rural areas
-  2. How delaying people's retirement age would make the system last longer. Testify under different conditions.
-  3. In which year there will be less money collected then payed to retirees.
-  4. Since the pension fund is also generating income, we should also consider it as the income.
+\n Intro: China still use a binary pension system. They separate the rural and urban areas. They give people different amount of money based on their "Hukou"(Which is a system separates people that registered as rural resident from the people registered as urban residents.) Note: this impact their abilities to get social benefits such as education and pension. Usually people registered as rural residence are getting significantly less money from the pension system then people registered as urban residents.
+  (1) Retiree Vs Working population: this ratio is getting larger in both Urban and Rural areas
+  (2) How delaying people's retirement age would make the system last longer. Testify under different conditions.
+  (3) In which year there will be less money collected then payed to retirees.
+  (4) Since the pension fund is also generating income, we should also consider it as the income.
      After adding that, consider the time when this income can no longer balance out the expenditure of the pension fund.
-  5. Find the time that there will be no money left in the pension fund if the Chinese government decide not add any money to it.
-  6. If they add money, how much money do they need to add in each year or contribute to it in one time.
+  (5) Find the time that there will be no money left in the pension fund if the Chinese government decide not add any money to it.
+  (6) If they add money, how much money do they need to add in each year or contribute to it in one time.
 
 What I found on my way of doing research:
 1. The ratio between women in reproductive age (such as 20-45) and newborns tend to decline. This number is not recovering for Japan and Korea.
