@@ -1,4 +1,14 @@
-# Create table for the percentage of Chinese people live in city for each year
+# python 3
+# filename: Table (%of_people_with_selected_sex_in_City_Each_Year)
+# Authors: Betty Botian Zhang, bz2443@nyu.edu
+"""I used the data sets from UN Websites: (https://data.un.org/Data.aspx?d=POP&f=tableCode%3A22).
+When I conducted the project, there maybe data that are not up yet (e.g. I am not sure if my data
+file contains 2025's data). The data I downloaded is renamed into 
+"Japan Population Original Data(from UN).csv". I read this file, and slected the sex and nation. 
+Then I filter out data for the total population for this selected sex and nation. I filtered out
+the "Urban" and "Total" population. Then I use the "Urban" to divide the "Total" population to get
+the overall urbanization rate through out the history for selected sex and selected nation. 
+"""
 # This code in write by my own and revised by AI(Gemini). I learn the pandas system with AI ( Gemini).
 
 # Import
