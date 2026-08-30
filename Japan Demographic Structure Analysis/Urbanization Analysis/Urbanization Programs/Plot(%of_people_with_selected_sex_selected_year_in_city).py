@@ -1,5 +1,14 @@
-# Plot(%of_people_with_selected_sex_slected_year_in_city)
-
+# Python 3
+# filename:Plot(%of_people_with_selected_sex_slected_year_in_city)
+# Authors: Betty Botian Zhang, bz2443@nyu.edu
+"""In this program, I read files for a selected year and selected sex
+and created a plot for it. The file is about the urbanization rate and
+total population in each age group. I pot them together trying to find
+trend for Urbization and the change in Demographic structure in the 
+sametime. I plot 1 y axis as total population, and I plot another 
+y axis as urbanization rate. X-axis as age group. 
+"""
+## This code is partcially written by Gemini
 # import
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -10,7 +19,8 @@ selected_sex = "Both Sexes"
 selected_people = "Japanese"
 selected_nation = "Japan"
 data = pd.read_csv(f"{selected_nation}_Population_{selected_year}_{selected_sex}(%_live_in_Urban).csv")
-# start here the code write by AI(Gemini)
+
+## start here the code write by AI(Gemini)
 df = pd.DataFrame(data)
 
 # Create figure and axis objects with subplots
