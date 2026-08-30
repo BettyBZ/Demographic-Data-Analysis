@@ -9,7 +9,7 @@ Then I filter out data for the total population for this selected sex and nation
 the "Urban" and "Total" population. Then I use the "Urban" to divide the "Total" population to get
 the overall urbanization rate through out the history for selected sex and selected nation. 
 """
-# This code in write by my own and revised by AI(Gemini). I learn the pandas system with AI ( Gemini).
+## This code in write by my own and revised by AI(Gemini). I learn the pandas system with AI ( Gemini).
 
 # Import
 import pandas as pd
