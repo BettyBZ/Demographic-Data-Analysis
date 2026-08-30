@@ -22,7 +22,7 @@ df = pd.read_csv(input_filename,sep=",")
 # pull out the zeros
 df_cleaned = df.dropna(subset=["live_in_urban_percentage"])
 
-#Code past from Gemini starts here with my own revision only at line 35
+##Code past from Gemini starts here
 plt.figure(figsize=(8, 5))
 plt.plot(
     df_cleaned["Year"],
