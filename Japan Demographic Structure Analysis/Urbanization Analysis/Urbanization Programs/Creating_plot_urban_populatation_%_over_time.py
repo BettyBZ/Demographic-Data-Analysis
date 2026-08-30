@@ -1,4 +1,13 @@
+# Python 3
 # Creating a plot of china urban population percentage over time
+# Authors: Betty Botian Zhang, bz2443@nyu.edu
+"""The program reads the file that contain Japan's data
+for urbanization rate from each year that got the data.
+Percisely from 1955-2020. Then I allow the selection of
+sex to read different files for different sex. I was 
+expecting to see a difference, but there is just the
+same trend. 
+"""
 ## This ploting code is written by AI mostly
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,7 +22,7 @@ df = pd.read_csv(input_filename,sep=",")
 # pull out the zeros
 df_cleaned = df.dropna(subset=["live_in_urban_percentage"])
 
-#Code past from Gemini starts here with my own revision only at line 13
+#Code past from Gemini starts here with my own revision only at line 35
 plt.figure(figsize=(8, 5))
 plt.plot(
     df_cleaned["Year"],
