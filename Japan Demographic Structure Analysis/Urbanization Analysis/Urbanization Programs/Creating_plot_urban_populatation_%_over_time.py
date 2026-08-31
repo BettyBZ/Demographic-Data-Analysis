@@ -1,5 +1,5 @@
 # Python 3
-# Creating a plot of China urban population percentage over time
+# filename: Creating a plot of China urban population percentage over time
 # Authors: Betty Botian Zhang, bz2443@nyu.edu
 # AI Assistant: Gemini
 """The program reads the file that contain Japan's data
