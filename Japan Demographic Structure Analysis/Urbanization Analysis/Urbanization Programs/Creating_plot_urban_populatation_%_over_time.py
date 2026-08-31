@@ -1,6 +1,7 @@
 # Python 3
-# Creating a plot of china urban population percentage over time
+# Creating a plot of China urban population percentage over time
 # Authors: Betty Botian Zhang, bz2443@nyu.edu
+# AI Assistant: Gemini
 """The program reads the file that contain Japan's data
 for urbanization rate from each year that got the data.
 Percisely from 1955-2020. Then I allow the selection of
@@ -9,6 +10,8 @@ expecting to see a difference, but there is just the
 same trend. 
 """
 ## This ploting code is written by AI mostly
+
+# import
 import pandas as pd
 import matplotlib.pyplot as plt
 
