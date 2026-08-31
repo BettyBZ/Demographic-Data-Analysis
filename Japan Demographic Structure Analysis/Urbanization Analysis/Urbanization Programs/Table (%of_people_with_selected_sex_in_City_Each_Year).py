@@ -1,6 +1,7 @@
 # python 3
 # filename: Table (%of_people_with_selected_sex_in_City_Each_Year)
 # Authors: Betty Botian Zhang, bz2443@nyu.edu
+# AI Assistant: Gemini
 """I used the data sets from UN Websites: (https://data.un.org/Data.aspx?d=POP&f=tableCode%3A22).
 When I conducted the project, there maybe data that are not up yet (e.g. I am not sure if my data
 file contains 2025's data). The data I downloaded is renamed into 
