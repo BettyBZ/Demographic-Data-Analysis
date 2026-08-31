@@ -1,7 +1,16 @@
-# Create a Table that shows the % of people live in city for each age group in slected Year
-# The code is mostly write by my self, but I make some small changes to it. 
+# Python 3
+# Authors: Betty Botian Zhang, bz2443@nyu.edu
+# AI Assistant: Gemini
+# filename: Table(%_Population_in_City_selected_Year_selected_sex)
+"""In this program, I filterned the data and find urban and total population.
+Then I calculated urbinzation rate. I used pandas to extract the population 
+information based on a selection of sex, year, and nation. In the project, 
+I selected "Both Sexes" and "Japan" specifically. I run this code for each
+year I selected start from 1950s.(I should really try loops to make it more
+efficent).
+"""
+## Note: The code is mostly write by myself, but AI make some small changes to it. 
  
-
 # This part of code is write by me.
 # Import
 import pandas as pd
@@ -31,7 +40,7 @@ df_filtered = df[(df["Year"]==selected_year)&(df["Sex"]==selected_sex)&(df["Area
 value_col = "Value" if "Value" in df_filtered.columns else df_filtered.columns[-1]
 df_filtered[value_col] = pd.to_numeric(df_filtered[value_col],errors="coerce")
 
-#This part write by my self, but I learn the structure from AI.
+#This part write by myself, but I learn the structure from AI.
 # Sort the "Year" "Source Year"
 def sort_age_ranges(age_str):
     age_str = str(age_str).strip()
