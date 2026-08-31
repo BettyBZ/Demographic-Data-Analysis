@@ -1,6 +1,7 @@
 # Python 3
 # filename:Plot(%of_people_with_selected_sex_slected_year_in_city)
 # Authors: Betty Botian Zhang, bz2443@nyu.edu
+# AI Assistant: Gemini
 """In this program, I read files for a selected year and selected sex
 and created a plot for it. The file is about the urbanization rate and
 total population in each age group. I pot them together trying to find
