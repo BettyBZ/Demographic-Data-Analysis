@@ -1,3 +1,13 @@
+# Python 3
+# filename: Create_Plot(for_single_year_age_group)
+# Authors: Betty Botian Zhang, bz2443@nyu.edu
+# AI Assistant: Gemini
+""" Plot graphs that shows the distribution of the population.
+The Japanese population are grouped by every single age. I make
+Plot for every five year from 1955 - 2020 except 1975. 
+I did not got the data from 1975, when I try to read the file
+from the UN Data website. 
+"""
 ## The code in the define function plot_graph is a copy of code from "China_Create_Plot(for_single_year_age_group).py".
 
 # Import
@@ -47,6 +57,7 @@ def plot_graph(selected_year):
 
     # 5. Fix X-axis limits and ticks (0 to 7 with 1e7 scaling index)
     # 7 * 1e7 = 70,000,000 max limit
+    ## I fixed the scale to e6, from 0 - 3e6.
     ax.set_xlim(0, 3e6)
     ax.set_xticks([i * 1e6 for i in range(4)])
     ax.set_xticklabels([f'{i}e6' for i in range(4)])
