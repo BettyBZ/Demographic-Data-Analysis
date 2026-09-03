@@ -1,8 +1,14 @@
 
-# Chinese Population Structure Study
-# The graph for each single year age group
-## Betty Botian Zhang
-# This code is written by AI(Gemini), and revised by me and AI(Gemini).
+# Python 3
+# filename: Create_Table(for_single_year_age_group)
+# Authors: Betty Botian Zhang, bz2443@nyu.edu
+# AI Assistant: Gemini
+"""In this program, I read the original data from UN.
+Then, I only pick the data from the most recent source 
+year. I put all the data for population distribution for
+single age togethor in one table. 
+"""
+## This code is written by AI(Gemini), and revised by me and AI(Gemini).
 import matplotlib.pyplot as plt
 import pandas as pd
 
