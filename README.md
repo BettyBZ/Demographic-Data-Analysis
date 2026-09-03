@@ -1,6 +1,6 @@
 # Demographic Data Analysis(China, Japan, and Republic of Korea): This is only an outline of the project's description 
 In this repository, I am going to put up my project about Demographic Data Analysis. The Data comes from UN Data Base. From This website (https://data.un.org/Data.aspx?d=POP&f=tableCode%3A22). When I did this project, some data from 2025 is not up yet, for which data I used
-please take a look at my file named in this pattern "{selected country name} Population Original Data(from UN).csv".
+please take a look at my file named in this pattern "{selected people} Population Original Data(from UN).csv".
 
 What I analyzed: 
 1. Current and historical Demographic structures for some East Asian countries (Japan, China, Republic of Korea)
